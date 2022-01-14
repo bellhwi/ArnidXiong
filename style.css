@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+:root {
+  --max-width: 1000px;
+  --primary-color: #53c3bf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.current {
+  color: var(--primary-color);
+}
+
+/* Utility */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  overflow: hidden;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.pt-1 {
+  padding-top: 1rem;
+}
+.pt-2 {
+  padding-top: 2rem;
+}
+.pt-3 {
+  padding-top: 3rem;
+}
+.pt-4 {
+  padding-top: 4rem;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+nav ul {
+  font-size: 0.8rem;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:first-child {
+  padding-right: 3rem;
+}
+
+nav ul li a {
+  color: #bababa;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #30787b;
+}
+
+/* Main Grid */
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.art {
+  position: relative;
+}
+
+.art img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.art a:hover img {
+  opacity: 0.3;
+}
+
+.art div {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.art:hover div {
+  visibility: visible;
+}
+
+/* About */
+#about h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#about h1 + img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f4f4;
+}
+
+#intro img {
+  width: 33%;
+}
+
+#intro h2 {
+  position: absolute;
+  top: 3rem;
+  left: 22.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#intro p {
+  padding: 0 2rem;
+  line-height: 1.7rem;
+  font-size: 0.8rem;
+}
+
+/* Footer */
+#sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+#sns:hover {
+  color: #bababa;
+}
+
+#sns a:not(:last-child) {
+  margin-right: 2rem;
+}
+
+#sns a:hover {
+  color: #000;
+}
