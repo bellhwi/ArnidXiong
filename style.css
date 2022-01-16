@@ -51,18 +51,25 @@ a:active {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
 }
 
 .contents-grid-3 {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
 }
 
 .contents-grid-4 {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.mt-05 {
+  margin-top: 0.5rem;
 }
 
 .mt-1 {
@@ -167,7 +174,10 @@ nav ul li a:hover {
 }
 
 #work-page img {
-  display: block;
+  width: 100%;
+}
+
+#work-page video {
   width: 100%;
 }
 
