@@ -141,7 +141,7 @@ nav ul li a:hover {
   display: block;
   width: 100%;
   object-fit: cover;
-  aspect-ratio: 1;
+  height: 220px;
 }
 
 .art {
