@@ -117,6 +117,7 @@ nav ul {
   font-size: 0.8rem;
   list-style: none;
   text-align: center;
+  padding-right: 0.5rem;
 }
 
 nav ul li {
@@ -137,6 +138,13 @@ nav ul li a:hover {
 }
 
 /* Main Grid */
+.grid-container.mt-4 .art img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
 .art {
   position: relative;
 }
@@ -185,6 +193,13 @@ nav ul li a:hover {
   width: 50%;
 }
 
+.grid-container.mt-1 .art img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
 /* About */
 #about h1 {
   text-align: center;
@@ -221,11 +236,28 @@ nav ul li a:hover {
 }
 
 /* Footer */
+footer {
+  margin: 4rem auto;
+}
+
+#contact {
+  text-align: center;
+  line-height: 2rem;
+}
+
+#contact h3 {
+  font-size: 1rem;
+}
+
+#contact p {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
 #sns {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4rem 0;
 }
 
 #sns:hover {
@@ -238,24 +270,6 @@ nav ul li a:hover {
 
 #sns a:hover {
   color: var(--primary-color);
-}
-
-/* Support Keep Grid Images Ratio For Safari */
-@media only screen {
-  .grid-container.mt-4 .art img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1;
-  }
-
-  /* Bottom Thumbnails */
-  .grid-container.mt-1 .art img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-  }
 }
 
 /* Responsive Screen For Tablet */
