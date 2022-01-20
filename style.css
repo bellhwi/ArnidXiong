@@ -178,6 +178,10 @@ nav ul li a:hover {
   width: 100%;
 }
 
+#work-page img.no-gap {
+  display: block;
+}
+
 #work-page video {
   width: 100%;
 }
