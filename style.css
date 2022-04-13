@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 :root {
   --max-width: 1000px;
-  --primary-color: #53c3bf;
+  --primary-color: #ea00ff;
+  --hover-color: #ab20ff;
 }
 
 * {
@@ -12,13 +13,13 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a,
@@ -106,7 +107,7 @@ a:active {
 #logo a {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 100%;
 }
 
 #logo a img {
@@ -134,7 +135,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #30787b;
+  color: var(--hover-color);
 }
 
 /* Main Grid */
@@ -262,10 +263,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#sns:hover {
-  color: #bababa;
 }
 
 #sns a:not(:last-child) {
