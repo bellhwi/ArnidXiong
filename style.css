@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 :root {
   --max-width: 1000px;
-  --primary-color: #ea00ff;
-  --hover-color: #ab20ff;
+  --primary-color: #ef233c;
+  --hover-color: #ef233c;
 }
 
 * {
@@ -132,7 +132,7 @@ nav ul li:first-child {
 }
 
 nav ul li a {
-  color: #bababa;
+  color: black;
   font-weight: bold;
 }
 
@@ -306,7 +306,7 @@ footer {
   }
   #logo a img {
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
   }
 
