@@ -4,6 +4,7 @@
   --max-width: 1000px;
   --primary-color: #ef233c;
   --hover-color: #ef233c;
+  --bg-color: #f8edeb;
 }
 
 * {
@@ -14,6 +15,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
 }
 
 h1,
@@ -169,12 +171,18 @@ nav ul li a:hover {
   margin: auto;
 }
 
-#work-page img {
-  width: 100%;
+#work-page .container {
+  text-align: center;
 }
 
-#work-page img.no-gap {
+#work-page .container p {
+  margin: 1.5rem 0;
+  font-size: 0.7rem;
+}
+
+#work-page img {
   display: block;
+  width: 100%;
 }
 
 #work-page video {
