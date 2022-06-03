@@ -108,7 +108,9 @@ a:active {
 }
 
 #logo a img {
-  height: 300px;
+  object-fit: cover;
+  width: 1000px;
+  height: 400px;
 }
 
 nav ul {
@@ -223,7 +225,6 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f4f4f4;
 }
 
 #intro img {
@@ -306,7 +307,9 @@ footer {
   }
 
   #logo a img {
-    height: 250px;
+    width: 1000px;
+    object-fit: cover;
+    height: 400px;
   }
 
   #intro img {
