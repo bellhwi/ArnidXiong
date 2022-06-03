@@ -107,10 +107,14 @@ a:active {
   justify-content: center;
 }
 
-#logo a img {
+.logo-img {
   object-fit: cover;
   width: 1000px;
   height: 400px;
+}
+
+.logo-mobile {
+  display: none;
 }
 
 nav ul {
@@ -221,6 +225,11 @@ nav ul li a:hover {
   height: auto;
 }
 
+.about-img {
+  height: 500px;
+  object-fit: cover;
+}
+
 #intro {
   display: flex;
   align-items: center;
@@ -303,13 +312,16 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #f4f4f4;
   }
 
-  #logo a img {
-    width: 1000px;
+  .logo-img {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+    height: 250px;
     object-fit: cover;
-    height: 400px;
   }
 
   #intro img {
@@ -337,5 +349,10 @@ footer {
   /* Bottom Thumbnails */
   #main-grid .container.mt-4 {
     width: 90%;
+  }
+
+  .about-img {
+    height: 200px;
+    object-fit: cover;
   }
 }
