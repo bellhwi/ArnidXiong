@@ -108,13 +108,7 @@ a:active {
 }
 
 .logo-img {
-  object-fit: cover;
-  width: 1000px;
-  height: 400px;
-}
-
-.logo-mobile {
-  display: none;
+  height: 300px;
 }
 
 nav ul {
@@ -317,13 +311,8 @@ footer {
   }
 
   .logo-img {
-    display: none;
-  }
-
-  .logo-mobile {
     display: block;
     height: 250px;
-    object-fit: cover;
   }
 
   #intro img {
