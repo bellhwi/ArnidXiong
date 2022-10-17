@@ -1,3 +1,5 @@
+[VIEW WEBSITE](https://arnidxiong.netlify.app/)
+
 This is a portfolio website for my graphic designer partner.
 
 My girlfriend needed a website to showcase her works to land a new job.
