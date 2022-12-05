@@ -1,6 +1,6 @@
 <h1 align="center">Arnid Xiong</h1>
 <h3 align="center">Arnid Xiong is a portfolio website for my graphic designer client 👩🏻‍🎨</h3>
-<img src="/img/arnid.webp"/>
+<p align="center"><img src="/img/arnid.png" width="50%"></p>
 <h6 align="center"><a href="https://arnidxiong.co/">✨ VIEW LIVE WEBSITE
 </a></h6>
 
