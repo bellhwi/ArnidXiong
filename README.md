@@ -1,20 +1,16 @@
-<h1 align="center">Arnid Xiong</h1>
-<h3 align="center">Arnid Xiong is a portfolio website for my graphic designer client 👩🏻‍🎨</h3>
+# Arnid Xiong
+
+> [Arnid Xiong](https://arnidxiong.co/) is a portfolio website for my graphic designer client 👩🏻‍🎨
 <p align="center"><img src="/img/arnid.png" width="75%"></p>
-<h6 align="center"><a href="https://arnidxiong.co/">✨ VIEW LIVE WEBSITE
-</a></h6>
 
-**Features**
+## Features
 
+- 💎 Freelance project
 - 💻 Wireframe design to code
-
-- 📱 Responsive Design
-
+- 📱 Responsive design
 - 🎨 Pure CSS
 
-- ⭐️ My very first freelance web project
-
-**Tech**
+## Tech
 
 <p align="left">
     <img
